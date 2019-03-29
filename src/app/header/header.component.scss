@@ -1,3 +1,6 @@
+@import "./../variables.scss";
+
+
 .outer-header {
   display: flex;
   justify-content: space-between;
@@ -16,6 +19,25 @@
   align-items: center;
   width: 100%;
   height: inherit;
+}
+
+.r-header {
+  display: flex;
+  align-items: center;
+  li {
+    a {
+      padding: 8px; 
+      white-space: nowrap;
+    }
+  }
+  .sign-in {
+    border: 1px solid $dark;
+    border-radius: 3px;
+  }
+  .sign-in:hover {
+    background-color: $darkHover;
+    color: white;
+  }
 }
 
 app-search {

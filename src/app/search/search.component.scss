@@ -14,10 +14,10 @@ input {
   padding-left: 8px;
 
   background-color: #f9f9f8;
+  font-size: 14px;
 }
 
 .search-btn {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,4 +33,5 @@ input {
   margin-left: -1px;
   letter-spacing: .05em;
 
+  cursor: pointer;
 }
