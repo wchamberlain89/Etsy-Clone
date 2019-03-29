@@ -10,20 +10,10 @@ import { Category } from '../models/Category.model'
 
 export class MenubarComponent implements OnInit {
 
-  mainCategories:Category[] = [];
+  mainCategories:Category[] = mainCategories;
 
 
   ngOnInit() {
-    const categoryNames:string[] = ["Jewelry & Accessories", "Clothing & Shoes", "Home & Living", "Wedding & Party", "Toys & Entertainment", "Art & Collectibles", "Craft Supplies"];
-    const imageNames:string[] = ["jewelry", "women", "home", "wedding", "games", "art", "crafts"];
-
-    categoryNames.forEach((name, index) => {
-      this.mainCategories.push(new Category({
-        name : name,
-        href : "#",
-        promoImg: imageNames[index]
-      }));
-    });
   }
 
   constructor() { }
