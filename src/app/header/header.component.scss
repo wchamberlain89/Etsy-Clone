@@ -1,0 +1,11 @@
+div:first-child {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  max-height: 100%;
+}
