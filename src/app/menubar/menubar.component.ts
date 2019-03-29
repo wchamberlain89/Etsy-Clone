@@ -11,6 +11,7 @@ import { Category } from '../models/Category.model'
 export class MenubarComponent implements OnInit {
 
   mainCategories:Category[] = mainCategories;
+  selectedCategory:Category;
 
   ngOnInit() {
     console.log(mainCategories);
@@ -19,11 +20,11 @@ export class MenubarComponent implements OnInit {
   constructor() { }
 
   enter(selected) {
-    this.selected = selected;
+    this.selectedCategory = selected;
   }
 
   leave() {
-    this.selected = null;
+    this.selectedCategory = null;
   }
 
 
