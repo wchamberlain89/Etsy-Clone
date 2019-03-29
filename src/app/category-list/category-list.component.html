@@ -6,4 +6,9 @@
     <li *ngFor="let category of category.subCategories" (mouseenter)="enter(category)">{{category.name}}</li>
   </ul>
   <app-category-items-list [category]="selectedSubCategory"></app-category-items-list>
+  <aside>
+    <img src="./../assets/imgs/{{category.promoImg}}" alt="">
+    <h3>Editor's Pick</h3>
+    <a href="#">Jewelry Shop</a>
+  </aside>
 </section>
