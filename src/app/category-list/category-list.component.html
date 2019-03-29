@@ -1,6 +1,9 @@
-<div *ngIf="category">
+<section *ngIf="category">
   <ul>
+    <li>
+      <h5>{{category.name}}</h5>
+    </li>
     <li *ngFor="let category of category.subCategories" (mouseenter)="enter(category)">{{category.name}}</li>
   </ul>
   <app-category-items-list [category]="selectedSubCategory"></app-category-items-list>
-</div>
+</section>

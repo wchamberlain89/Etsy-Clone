@@ -1,6 +1,12 @@
-<ul>
-  <li *ngFor="let category of mainCategories" (mouseenter)='enter(category)'>
-    {{category.name}}
-  </li>
-</ul>
+<nav>
+  <div class="inner">
+    <ul>
+      <li *ngFor="let category of mainCategories" (mouseenter)='enter(category)'>
+        {{category.name}}
+      </li>
+      <li><a href="#">Vintage</a></li>
+      <li><a href="#">Gifts</a></li>
+    </ul>
+  </div>
+</nav>
 <app-category-list [category]="selectedCategory"></app-category-list>
