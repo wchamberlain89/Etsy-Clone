@@ -1,3 +1,6 @@
+@import "./../variables.scss";
+
+
 form {
   display: flex;
   width: 100%;
@@ -34,4 +37,12 @@ input {
   letter-spacing: .05em;
 
   cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: $darkHover;
+}
+
+.header-icon {
+  
 }
