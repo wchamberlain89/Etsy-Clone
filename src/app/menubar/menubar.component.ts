@@ -14,6 +14,7 @@ export class MenubarComponent implements OnInit {
 
 
   ngOnInit() {
+    console.log(mainCategories);
   }
 
   constructor() { }
