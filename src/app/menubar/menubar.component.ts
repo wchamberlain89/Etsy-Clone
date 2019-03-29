@@ -12,14 +12,19 @@ export class MenubarComponent implements OnInit {
 
   mainCategories:Category[] = mainCategories;
 
-
   ngOnInit() {
     console.log(mainCategories);
   }
 
   constructor() { }
 
+  enter(selected) {
+    this.selected = selected;
+  }
 
+  leave() {
+    this.selected = null;
+  }
 
 
 }

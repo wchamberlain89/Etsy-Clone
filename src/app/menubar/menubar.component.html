@@ -1,5 +1,5 @@
 <ul>
-  <li *ngFor="let category of mainCategories">
+  <li *ngFor="let category of mainCategories" (mouseenter)='enter(category)' (mouseleave)="leave()">
     {{category.name}}
   </li>
 </ul>
