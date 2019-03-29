@@ -1,4 +1,4 @@
-import {Category} from "./../models/Category.model.ts";
+import {Category} from "./../models/Category.model";
 import {jewelryCategories} from "./jewelry/jewelry";
 
 const names:string[] = ["Jewelry & Accessories", "Clothing & Shoes", "Home & Living", "Wedding & Party", "Toys & Entertainment", "Art & Collectibles", "Craft Supplies"];
