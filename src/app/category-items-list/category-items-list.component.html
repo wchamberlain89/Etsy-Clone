@@ -1,3 +1,5 @@
-<p>
-  category-items-list works!
-</p>
+<div *ngIf="category">
+  <ul>
+    <li *ngFor="let category of category.subCategories">{{category.name}}</li>
+  </ul>
+</div>

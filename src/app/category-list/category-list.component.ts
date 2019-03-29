@@ -8,10 +8,14 @@ import { Category } from '../models/Category.model'
 })
 export class CategoryListComponent implements OnInit {
   @Input() category:Category
-
+  selectedSubCategory:Category;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  enter(category) {
+    this.selectedSubCategory = category; 
   }
 
 }

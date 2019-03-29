@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-category-items-list',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category-items-list.component.scss']
 })
 export class CategoryItemsListComponent implements OnInit {
-
+  @Input() category:Category;
+  
   constructor() { }
 
   ngOnInit() {
