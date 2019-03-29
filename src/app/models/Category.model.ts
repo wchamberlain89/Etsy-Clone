@@ -1,9 +1,9 @@
-export Class Category {
+export class Category {
   constructor(
-    public name:string;
-    public subCategories:[]Category;
-    public href:string;
-    public img?:string;
-    public editorsPick?:string;
+    public name:string,
+    public href:string,
+    public subCategories?:Category[],
+    public promoImg?:string,
+    public promoText?:string
   ){}
 }
