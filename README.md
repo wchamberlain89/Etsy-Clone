@@ -14,10 +14,10 @@ Clone of the Etsy Webpage using Angular.
 * Navigate to localhost given in terminal
 
 ### Development Specs
-  Friday 3/29/19 Main Development Focus -
-  Header Bar component with search bar component inside
-  Header Menu Bar Component displaying subCategories on hover as well as right promo section
-  Submenu Component displaying children menu items on hover in center
+  * Friday 3/29/19 Main Development Focus -
+  * Header Bar component with search bar component inside
+  * Header Menu Bar Component displaying subCategories on hover as well as right promo section
+  * Submenu Component displaying children menu items on hover in center
 
 ### Known Bugs
 * No mouseLeave effects yet
